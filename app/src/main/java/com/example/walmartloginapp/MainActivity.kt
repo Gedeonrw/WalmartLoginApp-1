@@ -17,11 +17,11 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        val user1 = User("Jean Claude", "Mugenzi", "jmugenzi@mum.edu", "123")
-        val user2 = User("Fabrice", "Habineza", "fhabineza@mum.edu", "123")
-        val user3 = User("Emmanuel", "Tumwizere", "etumwizere@mum.edu", "123")
-        val user4 = User("Felix", "Nikubwimana", "fnikubwimana@mum.edu", "123")
-        val user5 = User("Josue", "Masasu", "jmasasu@mum.edu", "123")
+        val user1 = User("Gedeon","NIYOgniyonsengaNSENGA","gniyonsenga@miu.edu","admin@123")
+        val user2 = User("Jane","Qween","jqueen@gmail.com","admin@124")
+        val user3 = User("Peter","sam","speter@gmail.com","admin@125")
+        val user4 = User("Diana","Kessy","kdiana@gmail.com","admin@126")
+        val user5 = User("Liddy","Angel","aliddy@gmail.com","admin@127")
         userList = arrayListOf(user1, user2, user3, user4, user5)
     }
 
